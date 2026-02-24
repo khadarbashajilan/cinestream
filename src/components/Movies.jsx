@@ -23,7 +23,7 @@ function MovieGrid({ movies }) {
       {movies.map((movie) => (
         <div
           key={movie.id}
-          onClick={() => navigate(`/${movie.id}`)} // Navigate to /:id
+          onClick={() => navigate(`/${movie.id}`)} 
           className="bg-neutral-800 rounded-lg cursor-pointer hover:scale-105 transition"
         >
           <div className="h-72">
